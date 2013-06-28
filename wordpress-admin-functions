@@ -1,0 +1,4 @@
+function remove_footer_admin () {
+  echo 'Designed & Developed by <a href="http://wingzcommunications.com" target="_blank">Wingz Communications</a>';
+}
+add_filter('admin_footer_text', 'remove_footer_admin');
